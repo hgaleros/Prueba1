@@ -1,0 +1,38 @@
+dir
+git version
+git init
+git status
+git add .
+git status
+git commit -m "prueba 1"
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/hgaleros/test.git
+git remote -v
+git push -u origin main
+git config --global --unset http.proxy
+git push -u origin main
+git clone https://github.com/hgaleros/test.git Prueba2
+git config --global http.sslBackend "openssl"
+git clone https://github.com/hgaleros/test.git Prueba2
+git push -u origin main
+git config --global http.sslVerify false
+git push -u origin main
+git config --global http.schannelCheckRevoke false
+git push -u origin main
+git push -u origin main
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+git config --global --get https.proxy
+git config --system --get https.proxy
+git push -u origin main
+git config --global --add remote.origin.proxy ""
+git push -u origin main
+git config --global http.sslCAInfo "C:\Program Files\Git\mingw64\ssl\cert.pem"
+git push -u origin main
+git config --global http.sslBackend "openssl"
+git config --global http.sslCAInfo "C:\Program Files\Git\mingw64\ssl\cert.pem"
+git push
+git push -u origin main
+git clone https://github.com/hgaleros/test.git Prueba1
+git clone https://github.com/hgaleros/Prueba1.git Prueba1

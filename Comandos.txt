@@ -1,0 +1,19 @@
+# Pruebas y configuracion inicial #
+git version
+git status
+git init
+git config --global user.email "franciscogaleros@gmail.com"
+git config --global user.name "hgaleros"
+
+# Se realizan cambios iterativos
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+
+# Informacion
+
+git status
+git log
+
+git remote set-url origin 
